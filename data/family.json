@@ -1,0 +1,397 @@
+{
+ "owner": "WKDSteve",
+ "categories": [
+  {
+   "key": "ai",
+   "label": "AI & context",
+   "plugins": [
+    {
+     "name": "ai.nvim",
+     "description": "Provider-agnostic AI layer for Neovim: streaming ask/chat, context assembly, and a Neovim-native UI on top of lib.nvim",
+     "stars": 1,
+     "commits": 127,
+     "lua_lines": 9743,
+     "specs": 41
+    },
+    {
+     "name": "buffer-ctx.nvim",
+     "description": "Buffer context for Neovim — insert or copy path, module, timestamp, UUID, annotations, and boilerplate from the current buffer, plus a unified :Format and :Mark command tree. Requires lib.nvim for the command layer (notify/map/which-key integration stay optional).",
+     "stars": 1,
+     "commits": 154,
+     "lua_lines": 6807,
+     "specs": 14
+    }
+   ]
+  },
+  {
+   "key": "edit",
+   "label": "Editing",
+   "plugins": [
+    {
+     "name": "cascade.nvim",
+     "description": "Context-aware lists & word cycling for Neovim — continue, renumber, checkboxes, rotate, sort, indent/move, with native fallbacks. No Treesitter, standalone.",
+     "stars": 0,
+     "commits": 173,
+     "lua_lines": 8735,
+     "specs": 20
+    },
+    {
+     "name": "replacer.nvim",
+     "description": "Project-wide search-and-replace with ripgrep, an interactive picker (fzf-lua or Telescope), live preview, and precise, bottom-up application of changes.",
+     "stars": 1,
+     "commits": 201,
+     "lua_lines": 8773,
+     "specs": 0
+    },
+    {
+     "name": "emojis.nvim",
+     "description": "Remove, count, list, replace, or insert emojis in Neovim across line/visual/buffer/project scopes.",
+     "stars": 0,
+     "commits": 120,
+     "lua_lines": 4786,
+     "specs": 26
+    },
+    {
+     "name": "language.nvim",
+     "description": "Spelling, grammar, and translation tooling for Neovim: one plugin, unified scope model, async throughout",
+     "stars": 0,
+     "commits": 180,
+     "lua_lines": 15585,
+     "specs": 44
+    },
+    {
+     "name": "markdown.nvim",
+     "description": "Self-contained Markdown toolkit for Neovim — heading nav/shift, TOC, folding, GFM tables, link/anchor/image handling, and highlight fixes. FileType-scoped, no external tools.",
+     "stars": 3,
+     "commits": 362,
+     "lua_lines": 25039,
+     "specs": 86
+    },
+    {
+     "name": "data.nvim",
+     "description": "Format and filter JSON/YAML/XML in Neovim: pretty/compact/lines/keys, buffer/selection/register scope.",
+     "stars": 2,
+     "commits": 62,
+     "lua_lines": 2955,
+     "specs": 31
+    },
+    {
+     "name": "migrate.nvim",
+     "description": "Migrate deprecated Neovim API calls (nvim_*_option, vim.notify) in place — line, range, buffer, or cwd, with a Telescope picker.",
+     "stars": 1,
+     "commits": 0,
+     "lua_lines": 0,
+     "specs": 0
+    }
+   ]
+  },
+  {
+   "key": "navigate",
+   "label": "Files & navigation",
+   "plugins": [
+    {
+     "name": "gopath.nvim",
+     "description": "A modular file-navigation plugin for Neovim. Resolves symbols, require() paths, and arbitrary file references via a multi-phase pipeline: LSP -> Treesitter -> whole-line extraction -> suffix search -> fuzzy alternate.",
+     "stars": 0,
+     "commits": 230,
+     "lua_lines": 13041,
+     "specs": 0
+    },
+    {
+     "name": "hover.nvim",
+     "description": "Rest the cursor on a path or link and see what it points at: file heads, directory listings, images, PDF pages, markdown sections, URL details -- with every preview class an opt-in switch.",
+     "stars": 2,
+     "commits": 203,
+     "lua_lines": 19503,
+     "specs": 38
+    },
+    {
+     "name": "open.nvim",
+     "description": "Open files, URLs, and paths from anywhere in Neovim — to the system default app, browser, file manager, or a split/tab.",
+     "stars": 1,
+     "commits": 149,
+     "lua_lines": 4475,
+     "specs": 17
+    },
+    {
+     "name": "pickers.nvim",
+     "description": "Unified fuzzy-picker plugin for Neovim — one :Pickers command over telescope.nvim or fzf-lua, with scopes, collections and directory navigation.",
+     "stars": 2,
+     "commits": 263,
+     "lua_lines": 13755,
+     "specs": 1
+    },
+    {
+     "name": "filetree.nvim",
+     "description": "Adapter-agnostic filetree features for Neovim — one feature set across neo-tree, nvim-tree, netrw & more, opt-out by default.",
+     "stars": 1,
+     "commits": 607,
+     "lua_lines": 41443,
+     "specs": 6
+    },
+    {
+     "name": "fileops.nvim",
+     "description": "Unified :File command for Neovim — create, rename, move, duplicate, delete, and cycle files via libuv, cross-platform, no shell.",
+     "stars": 1,
+     "commits": 162,
+     "lua_lines": 5680,
+     "specs": 22
+    },
+    {
+     "name": "sessions.nvim",
+     "description": "Branch- and project-aware Neovim sessions, built on lib.nvim — save/restore/rename, statusline component, session picker",
+     "stars": 2,
+     "commits": 177,
+     "lua_lines": 7001,
+     "specs": 22
+    },
+    {
+     "name": "neotree-fs-refactor.nvim",
+     "description": "Automatic require()/import reference updates for Neo-tree file renames and moves",
+     "stars": 0,
+     "commits": 0,
+     "lua_lines": 0,
+     "specs": 0
+    }
+   ]
+  },
+  {
+   "key": "inspect",
+   "label": "Debug & inspect",
+   "plugins": [
+    {
+     "name": "dap.nvim",
+     "description": "Config layer on top of nvim-dap: adapters & launch configs for 9 languages, batteries included",
+     "stars": 0,
+     "commits": 129,
+     "lua_lines": 3587,
+     "specs": 31
+    },
+    {
+     "name": "debugging.nvim",
+     "description": "One :Debug command for every Neovim debugging tool",
+     "stars": 1,
+     "commits": 144,
+     "lua_lines": 6078,
+     "specs": 18
+    },
+    {
+     "name": "diff.nvim",
+     "description": "Flexible :Diff command for Neovim — compare buffers, files, or the clipboard, side-by-side or inline, via vim.diff (no shell calls).",
+     "stars": 0,
+     "commits": 156,
+     "lua_lines": 5239,
+     "specs": 34
+    },
+    {
+     "name": "lsp.nvim",
+     "description": "Umbrella plugin for a Neovim config's whole LSP setup: server registry, attach pipeline, formatter and diagnostics toggles, a declarative catalogue for every LSP keymap, and the LSP-adjacent plugins installed and wired through its own lazy.nvim pack.",
+     "stars": 0,
+     "commits": 318,
+     "lua_lines": 34899,
+     "specs": 67
+    },
+    {
+     "name": "insights.nvim",
+     "description": "Project analysis for Neovim — symbol index, code metrics, file tree, imports, and compression in one unified command.",
+     "stars": 2,
+     "commits": 200,
+     "lua_lines": 11453,
+     "specs": 37
+    },
+    {
+     "name": "runtime-analysis.nvim",
+     "description": "Runtime truth for Neovim plugins: an HTTP request runner, opt-in call/argument telemetry, and live package.loaded inspection, paired with documentation.nvim's static truth.",
+     "stars": 1,
+     "commits": 265,
+     "lua_lines": 14850,
+     "specs": 32
+    },
+    {
+     "name": "recommender.nvim",
+     "description": "Analyzes the current Lua buffer for repeated dotted chains and suggests local alias declarations in an interactive floating window.",
+     "stars": 1,
+     "commits": 103,
+     "lua_lines": 3049,
+     "specs": 17
+    },
+    {
+     "name": "spotlight.nvim",
+     "description": "Persistent multi-token highlighting for Neovim: spotlight any number of words, IDs, IPs or error codes in distinguishable colors — matchadd-based, so cost is independent of file size. Per-project persistence.",
+     "stars": 2,
+     "commits": 118,
+     "lua_lines": 6375,
+     "specs": 34
+    },
+    {
+     "name": "cmdlog.nvim",
+     "description": "A lightweight Neovim plugin to interactively view, search, and reuse command-line mode (`:`) and shell history using Telescope with extras.",
+     "stars": 5,
+     "commits": 155,
+     "lua_lines": 3897,
+     "specs": 1
+    },
+    {
+     "name": "testing.nvim",
+     "description": "Test runner and orchestration layer for Neovim plugins, built on lib.nvim (pre-alpha skeleton)",
+     "stars": 1,
+     "commits": 127,
+     "lua_lines": 65594,
+     "specs": 178
+    }
+   ]
+  },
+  {
+   "key": "project",
+   "label": "Project & repos",
+   "plugins": [
+    {
+     "name": "sandbox.nvim",
+     "description": "Manage your containers (Podman, Docker, and more) directly from Neovim – with clean architecture, pluggable backends, and a TUI-native experience.",
+     "stars": 6,
+     "commits": 247,
+     "lua_lines": 12606,
+     "specs": 40
+    },
+    {
+     "name": "github_stats.nvim",
+     "description": "Automatic collection and analysis of GitHub repository traffic statistics for Neovim, with an interactive dashboard, exports, and period comparisons.",
+     "stars": 2,
+     "commits": 171,
+     "lua_lines": 9980,
+     "specs": 25
+    },
+    {
+     "name": "reposcope.nvim",
+     "description": "Search, preview, and clone GitHub, GitLab, and Codeberg repositories directly from inside Neovim. Modular, minimal, Telescope-inspired interface.",
+     "stars": 2,
+     "commits": 367,
+     "lua_lines": 10999,
+     "specs": 35
+    },
+    {
+     "name": "docmap.nvim",
+     "description": "know your project — an interactive module map, drift checks that fail CI, and an in-editor browser for any repository.",
+     "stars": 2,
+     "commits": 567,
+     "lua_lines": 59282,
+     "specs": 132
+    },
+    {
+     "name": "gitsuite.nvim",
+     "description": "One :Git command tree for everything git in Neovim -- own implementation where it pays off, thin adapters where it doesn't.",
+     "stars": 1,
+     "commits": 144,
+     "lua_lines": 18072,
+     "specs": 46
+    },
+    {
+     "name": "terminal.nvim",
+     "description": "Named, per-project terminals in Neovim: toggle a float/split/tab, send text, run commands with quoted argv. Backends: native, WezTerm panes, tmux; status export and window navigation across the multiplexer.",
+     "stars": 2,
+     "commits": 93,
+     "lua_lines": 8942,
+     "specs": 24
+    }
+   ]
+  },
+  {
+   "key": "view",
+   "label": "View & render",
+   "plugins": [
+    {
+     "name": "ui.nvim",
+     "description": "Statusline, tabline and theme layer for Neovim — the frame around the window. Planning stage.",
+     "stars": 1,
+     "commits": 423,
+     "lua_lines": 38673,
+     "specs": 105
+    },
+    {
+     "name": "color_my_ascii.nvim",
+     "description": "A Neovim plugin for colorful highlighting of ASCII art in Markdown code blocks with automatic language detection, custom highlights, and predefined color schemes.",
+     "stars": 7,
+     "commits": 181,
+     "lua_lines": 12168,
+     "specs": 30
+    },
+    {
+     "name": "images.nvim",
+     "description": "Show images inside Neovim via the iTerm2 protocol (OSC 1337) — hover, gallery, clipboard paste. Works on native Windows where Kitty-protocol plugins cannot.",
+     "stars": 1,
+     "commits": 265,
+     "lua_lines": 13084,
+     "specs": 45
+    },
+    {
+     "name": "mdview.nvim",
+     "description": "Highly secure, high-performance browser-based Markdown preview for Neovim — Go relay server + Rust/WASM sanitized rendering, no Node.js required.",
+     "stars": 3,
+     "commits": 349,
+     "lua_lines": 14622,
+     "specs": 58
+    },
+    {
+     "name": "media.nvim",
+     "description": "What is in this media file, and one picture of it -- ffprobe metadata and ffmpeg poster frames/contact sheets for Neovim",
+     "stars": 1,
+     "commits": 89,
+     "lua_lines": 10656,
+     "specs": 43
+    },
+    {
+     "name": "pdfport.nvim",
+     "description": "Extract and display PDF content in Neovim via pluggable extraction backends (pdftotext, pdfplumber, marker, docling, Claude, Ollama) and renderers.",
+     "stars": 1,
+     "commits": 169,
+     "lua_lines": 7435,
+     "specs": 23
+    }
+   ]
+  },
+  {
+   "key": "foundation",
+   "label": "Foundation",
+   "plugins": [
+    {
+     "name": "lib.nvim",
+     "description": "Reusable Lua/Neovim helper library — a tested, dependency-free base for personal plugins (lazy.nvim).",
+     "stars": 3,
+     "commits": 1011,
+     "lua_lines": 79603,
+     "specs": 156
+    }
+   ]
+  }
+ ],
+ "native": [
+  {
+   "name": "docmap-desktop",
+   "description": "know your project — a desktop workspace for documentation.nvim's module maps.",
+   "language": "Rust",
+   "stars": 0,
+   "commits": 278
+  },
+  {
+   "name": "ai-desktop",
+   "description": "",
+   "language": "C++",
+   "stars": 0,
+   "commits": 46
+  },
+  {
+   "name": "takt",
+   "description": "Modulare Medien-Suite in Rust: Player, Live-Studio, Video-Editor und DAW auf gemeinsamem Kern",
+   "language": "Rust",
+   "stars": 0,
+   "commits": 6
+  }
+ ],
+ "totals": {
+  "plugins": 40,
+  "commits": 9291,
+  "lua_lines": 638464,
+  "spec_files": 1579,
+  "stars": 63
+ }
+}
