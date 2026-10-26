@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./public/images/dev_logo.png" alt="My own logo with slogan: Loving science, tech & peace!" style="width:100px; padding: 2rem;" align="right">
-</p>
-
 # Who I Am and What I Do
 
 <p align="justify">
