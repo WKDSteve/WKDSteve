@@ -133,13 +133,13 @@ Everything is built with the same habits: one command per plugin (`:Git`, `:File
 
 <p align="center"><img src="assets/native.svg" alt="Native desktop tools" width="100%"></p>
 
-Local web UIs and desktop apps that sit next to the editor plugins: [**docmap-desktop**](https://github.com/WKDSteve/docmap-desktop) (module maps), [**ai-desktop**](https://github.com/WKDSteve/ai-desktop) (agent server and dashboard), [**takt**](https://github.com/WKDSteve/takt) (media suite, concept stage). More of them exist and stay private for now.
+Local web UIs and desktop apps that sit next to the editor plugins: [**takt**](https://github.com/WKDSteve/takt) (media suite, concept stage). More of them exist and stay private for now.
 
 ## In numbers
 
 <p align="center"><img src="assets/stats.svg" alt="Plugins, commits, lines of Lua, spec files" width="100%"></p>
 
-<sub>Counted from the public repositories by <code>scripts/update_data.py</code>: 40 plugins, 9,291 commits, 638,464 lines of Lua, 1,579 spec files.</sub>
+<sub>Counted from the public repositories by <code>scripts/update_data.py</code>: 40 plugins, 9,658 commits, 671,925 lines of Lua, 1,704 spec files.</sub>
 
 ## whoami
 

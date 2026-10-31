@@ -169,14 +169,12 @@ def family():
 def native():
     W, H = 1000, 352
     cards = [
-        ("docmap-desktop", "Rust · Tauri", "know your project", "A desktop workspace for module maps: many projects, one look, drift you can see.", CYAN, "graph"),
-        ("ai-desktop", "C++17", "local agent server", "Streaming ask endpoint and live dashboard that editors talk to. No cloud needed.", PURPLE, "chat"),
         ("takt", "Rust · concept", "modular media suite", "Player, live studio, video editor and DAW on one shared core. Time is the hard part.", ORANGE, "wave"),
     ]
     cw, gap = 304, 22
     out = []
     for i, (name, lang, tag, desc, color, kind) in enumerate(cards):
-        x = 22 + i * (cw + gap)
+        x = (W - len(cards) * cw - (len(cards) - 1) * gap) // 2 + i * (cw + gap)
         out.append(f'<g><rect x="{x}" y="64" width="{cw}" height="268" rx="14" fill="{BG2}" stroke="{LINE}"/>'
                    f'<rect x="{x}" y="64" width="{cw}" height="4" rx="2" fill="{color}"/>')
         # illustration
@@ -318,8 +316,6 @@ def readme():
     L.append("## Native\n")
     L.append('<p align="center"><img src="assets/native.svg" alt="Native desktop tools" width="100%"></p>\n')
     L.append("Local web UIs and desktop apps that sit next to the editor plugins: "
-             f"[**docmap-desktop**](https://github.com/{OWNER}/docmap-desktop) (module maps), "
-             f"[**ai-desktop**](https://github.com/{OWNER}/ai-desktop) (agent server and dashboard), "
              f"[**takt**](https://github.com/{OWNER}/takt) (media suite, concept stage). "
              "More of them exist and stay private for now.\n")
     L.append("## In numbers\n")

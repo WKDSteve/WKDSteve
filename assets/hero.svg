@@ -92,9 +92,9 @@
 <circle cx="930" cy="230" r="3" fill="#7aa2f7"/>
   <rect x="10" y="372" width="980" height="38" fill="#16161e"/>
   <path d="M10 372h112l14 19-14 19H10z" fill="#7aa2f7"/><text x="30" y="396" font-size="13" fill="#1a1b26" font-weight="700" text-anchor="start" >NORMAL</text>
-  <path d="M122 372h150l14 19-14 19H122z" fill="#292e42"/><text x="140" y="396" font-size="13" fill="#c0caf5" font-weight="400" text-anchor="start" > main  +9.3k</text>
+  <path d="M122 372h150l14 19-14 19H122z" fill="#292e42"/><text x="140" y="396" font-size="13" fill="#c0caf5" font-weight="400" text-anchor="start" > main  +9.7k</text>
   <text x="304" y="396" font-size="13" fill="#c0caf5" font-weight="400" text-anchor="start" >WKDSteve/README.md</text>
-  <text x="970" y="396" font-size="12.5" fill="#565f89" font-weight="400" text-anchor="end" >40 plugins  9.3k commits  638k lines of lua  1.6k specs</text>
+  <text x="970" y="396" font-size="12.5" fill="#565f89" font-weight="400" text-anchor="end" >40 plugins  9.7k commits  672k lines of lua  1.7k specs</text>
 </g>
 <rect x="10" y="10" width="980" height="400" rx="16" fill="none" stroke="#292e42" stroke-width="1.5"/>
 </svg>
